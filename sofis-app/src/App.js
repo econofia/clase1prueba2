@@ -5,6 +5,7 @@ import BodyMain from './Main';
 import Bodyfooter from './Footer';
 import React from "react";
 import foto from './logo1.jpg'
+import ItemCount from './ItemCount'
 
  function App() { 
      return (
@@ -13,7 +14,8 @@ import foto from './logo1.jpg'
     <hr/>
     <BodyMain/>
     <hr/>
-    <BodyFooter/>  
+    <BodyFooter/>
+    <ItemCount max= {10} initial= {1} />
     </>
      );
   }
