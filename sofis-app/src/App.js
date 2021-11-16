@@ -7,8 +7,8 @@ import React from "react";
 import foto from './logo1.jpg'
 import ItemCount from './ItemCount'
 
- function App() { 
-     return (
+function App() { 
+return (
     <> <Header/>
     <img src={foto}/>
     <hr/>
@@ -17,5 +17,5 @@ import ItemCount from './ItemCount'
     <BodyFooter/>
     <ItemCount max= {10} initial= {1} />
     </>
-     );
-  }
+);
+}
