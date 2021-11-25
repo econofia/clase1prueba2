@@ -11,6 +11,7 @@ const Home = () => {
         <Route path='/' element={<ItemListContainer/>} />
         <Route path='/category' element={<ItemList/>} />
         <Route path='/item' element={<ItemList/>} />
+        <Route path='/cart' element={<Cart/>} />
         </Routes>
         </BrowserRouter>
     )
