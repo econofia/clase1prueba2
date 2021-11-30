@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 
 const Home = () => {
     return (
+        <CartContext.Provider>
         <BrowserRouter>
         <Navbar/>
         <Routes>
@@ -14,5 +15,6 @@ const Home = () => {
         <Route path='/cart' element={<Cart/>} />
         </Routes>
         </BrowserRouter>
+        </CartContext.Provider>
     )
     }
